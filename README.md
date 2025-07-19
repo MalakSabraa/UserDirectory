@@ -1,12 +1,21 @@
-# React + Vite
+# Mini User Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + TypeScript app that fetches a list of users from an external API and displays them with styling from Tailwind CSS.
+Features include:
 
-Currently, two official plugins are available:
+✅ Fetch and display users’ names and emails
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Reverse the order of users with a button
 
-## Expanding the ESLint configuration
+✅ A reusable <List /> component with generics
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ A reusable <Greeting /> component with typed props
+
+✅ Debugging examples with useEffect
+
+How to run locally?
+
+git clone https://github.com/your-username/your-repo-name.git
+
+cd your-repo-name
+
