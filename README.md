@@ -14,8 +14,18 @@ Features include:
 ✅ Debugging examples with useEffect
 
 How to run locally?
+1) git clone https://github.com/MalakSabraa/UserDirectory.git
+2) cd UserDirectory
+3) npm install
+4) npm run dev
 
-git clone https://github.com/your-username/your-repo-name.git
+Reflection:
+1) How to debug infinite loops in useEffect and prevent them.
+2) How to fetch data in React using useEffect and handle loading state.
+3) How to build reusable components, like <Greeting /> and a generic <List />.
+4) How to type API data with TypeScript interfaces.
 
-cd your-repo-name
+Challenges:
+Understanding why using fetch directly in useEffect can be a poor practice and how to use AbortController to clean up.
+
 
